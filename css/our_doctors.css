@@ -1,0 +1,211 @@
+.nav-item {
+  margin-right: 30px;
+}
+h1,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #000000; /* Cambia el color de texto al pasar el mouse sobre los enlaces */
+}
+.navbar-nav .nav-link {
+  font-size: 30px;
+  font-family: "Darker Grotesque", sans-serif;
+  font-weight: 700;
+}
+.navbar-shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  opacity: 0.9;
+}
+
+body {
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+.centrado {
+  position: absolute;
+  top: 60%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.centrado h3 {
+  font-size: 4em; /* 40px */
+  font-weight: 700;
+  padding-left: 55px;
+}
+
+.centrado h1 {
+  font-size: 6em; /* 60px */
+  font-weight: 900;
+}
+
+@media (max-width: 800px) {
+  .centrado {
+    position: absolute;
+    top: 65%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .centrado h3 {
+    font-size: 2em; /* 32px */
+  }
+
+  .centrado h1 {
+    font-size: 3em; /* 48px */
+  }
+}
+@media (max-width: 600px) {
+  .centrado {
+    position: absolute;
+    top: 75%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .centrado h3 {
+    font-size: 2em; /* 32px */
+  }
+
+  .centrado h1 {
+    font-size: 3em; /* 48px */
+  }
+}
+
+@media (max-width: 576px) {
+  .centrado {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .centrado h3 {
+    font-size: 1.5em; /* 24px */
+    padding-left: 20px;
+  }
+
+  .centrado h1 {
+    font-size: 2.5em; /* 40px */
+  }
+}
+@media (max-width: 490px) {
+  .centrado {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .centrado h3 {
+    font-size: 1.5em; /* 32px */
+  }
+
+  .centrado h1 {
+    font-size: 2.5em; /* 48px */
+  }
+}
+
+.doctors-section {
+  background-color: #f7f7f7;
+  background-image: url("../assets/huellas-pata-gris-patrones-fisuras-sobre-fondo-blanco-impresion-textiles-ninos_484720-2150.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.doctor-card {
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.doctor-card:hover {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+  transform: translateY(-10px);
+}
+
+.doctor-img {
+  padding: 10px;
+  position: relative;
+  z-index: 0;
+}
+.doctor-img img{
+    width: 100%;
+ max-height: 350px;
+ height:auto;
+}
+.especializacion{
+    font-size: 1.5em; 
+    font-weight:500;
+
+}
+
+.doctor-img:before {
+  content: "";
+  width: 100%;
+  padding-top: 100%; /* establece un ratio de 1:1 para la imagen */
+  border-radius: 50%;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.doctor-info {
+  margin-left: 30px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.doctor-name {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.doctor-bio {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.doctor-info h3 {
+    font-size: 2em; 
+    font-weight:700;
+}
+
+.doctor-text {
+  position: relative;
+  z-index: 1;
+}
+
+.parr{
+    font-size: 2em; 
+    font-weight:500;
+
+}
+.titulo-footer {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 900;
+    color: #24a0ed;
+  }
+  .todo-foo{
+    padding-top: 3rem;
+    padding-left: 50px;
+  }
+  footer {
+    background-color: #595959;
+  }
+  
+.derechos{
+  background-color: #595959;
+}
+

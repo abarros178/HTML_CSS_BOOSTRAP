@@ -1,0 +1,19 @@
+h1, h2,h3, h4, h5, h6,
+p {
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+.staff-titulo{
+    font-size: 4em; 
+    font-weight:700;
+}
+
+.todo-atras{
+    background-image: url("../assets/huellas-pata-gris-patrones-fisuras-sobre-fondo-blanco-impresion-textiles-ninos_484720-2150.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-title{
+    font-size: 2em; 
+    font-weight:700;
+}
